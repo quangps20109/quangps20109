@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1510px;height: 5000px;
+    background: #dadadd;
+    position: absolute;
+}
+.nav1{
+    width: 300px;height: 100px;
+    background: #dc0606;
+    position: absolute;
+    top: 0px;
+}
+.logo1{
+    width: 75px;height: 75px;
+    position: relative;
+    top: 18px;
+    left: 110px;
+}
+.nav2{
+    width: 919px;height: 100px;
+    background: #222c37;
+    position: inherit;
+    left: 300px;
+    bottom: 4900px;
+}
+.h1{
+    text-decoration: none;
+    color: #dadada;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+.h1:hover{
+    color: #fff;
+}
+.nav3{
+    width: 300px;height: 100px;
+    background: #1b232b;
+    position: inherit;
+    left: 1219px;
+    bottom: 4900px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input-1 {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 3px solid #dc0606;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: #000;
+    outline: none;
+    transition: .5s;
+}
+.box:hover .input-1{
+    width: 200px;
+    background: white;
+    border-radius: 50px;
+}
+i{
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #dc0606;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.nav4{
+    width: 100%;height: 700px;
+    background: white;
+    position: absolute;
+    top: 100px;
+}
+.i1{
+    width: 100%;height: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.i2{
+    width: 500px;height: 70px;
+    position: absolute;
+    bottom: 480px;
+    left: 520px;
+}
+.bo13{
+    position: absolute;
+    background: #1b232b;
+    width: 1519px;height: 300px;
+    top: 4254px;
+}
+.bo13 img{
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
+.bo13 h1{
+    position: relative;
+    color: #fff;
+    font-family: sans-serif;
+    bottom: 150px;
+    text-align: center;
+}
+.bo13 h2{
+    position: relative;
+    color: #fff;
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    width: 650px;
+    left: 580px;
+    bottom: 130px;
+}
+.bo13 a{
+    position: relative;
+    color: #1b232b;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: 2px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 100px;
+    left: 580px;
+}
+.bo13 a:hover{
+    border: 2px;
+    padding: 10px;
+    color: #fff;
+    background: #dc0606;
+    border-radius: 10px;
+}
+.bo13 h3{
+    position: relative;
+    width: 650px;
+    color: #fff;
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    bottom: 118px;
+    left: 720px;
+}
+.bo14{
+    position: relative;
+    width: 100px;height: 30px;
+    top: 4254px;
+}
+.bo14 a{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    top: 167px;
+    left: 900px;
+}
+.footer{
+    width: 1519px;height: 446px;
+    background: #222c37;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background: rgba(34, 44, 55, 0.5);
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+}
+.fo1{
+    width: 100%;height: 100px;
+    background: #1b232b;
+    position: absolute;
+    bottom: 0;
+}
+.fo2{
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 604px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hr{
+    position: absolute;
+    width: 1000px;
+    left: 250px;
+    bottom: 200px;
+}
+.logo2{
+    position: absolute;
+    width: 80px;height: 80px;
+    left: 260px;
+    bottom: 250px;
+}
+.p5{
+    position: absolute;
+    width: 880px;
+    font-size: 20px;
+    left: 400px;
+    line-height: 35px;
+    bottom: 262px;
+    font-family: Verdana, Geneva;
+    color: #dadada;
+}
+.loxer{
+    width: 1519px;height: 3804px;
+    position: absolute;
+    top: 450px;
+    text-align: center;
+}
+.lox1{
+    width: 1119px;height: 3804px;
+    background: #1b232b;
+    position: relative;
+    left: 200px;
+}
+.lox1a{
+    width: 1119px;height: 100px;
+    background: #1b232b;
+    margin: 0 auto;
+    display: inline-block;
+}
+.lox1a ul{
+    list-style-type:none;
+    display:inline-block;
+}
+.lox1a ul li{
+    position:relative;
+    display:inline-block;
+    margin:0 20px 0 0;
+}
+.lox1a ul li a{
+    padding: 12px;
+    display:inline-block;
+    color: #dadada;
+    position: relative;
+    text-decoration:none;
+    width: 230px;
+}
+.lox1a ul li a:hover {
+    color: #fff;
+}
+.lox1a ul li ul {
+    display:none;
+    position:absolute;
+    background: #fff;
+    top: 70px;
+    left: 0px;
+    width: 254px;
+    z-index: 2;
+}
+.lox1a ul li ul li{
+    width: 100%;height: 50px;
+    font-family: sans-serif;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+}
+.lox1a ul li:hover ul {
+    display:block;
+}
+.lox1a a{
+    text-decoration: none;
+    color: #dadada;
+    font-family: Source Sans Pro;
+    margin-left: 0px;
+    font-size: 22px;
+    position: relative;
+    top: 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.lox1a a::after{
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+.lox1a a:hover::after{
+    background: #dc0606;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.lox1b{
+    width: 1119px;height: 645px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+.lox1b img{
+    position: relative;
+    right: 0px;
+    width: 1119px;
+    height: 645px;
+    z-index: 1;
+}
+.lox1b > img {
+    position: absolute;
+    opacity: 0;
+    animation: display 10s infinite;
+}
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+img:nth-child(4) {
+    animation-delay: 6s;
+}
+img:nth-child(5) {
+    animation-delay: 8s;
+}
+.lox1c{
+    width: 1119px;height: 1529px;
+}
+.lox1c h1{
+    float: left;
+    font-family: sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    color: #fff;
+}
+.lox1c a{
+    text-decoration: none;
+}
+.lox1c a:hover{
+    opacity: 0.8;
+}
+.lox1c a.xt{
+    color: #dadada;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 2370px;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 5px;
+    left: 466px;
+}
+.lox1c a.xt:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.lox1c img.nh1{
+    width: 500px;height: 359px;
+    position: relative;
+    top: 120px;
+    right: 340px;
+}
+.lox1c h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 140px;
+    width: 500px;
+    left: 50px;
+}
+.lox1c img.nh2{
+    width: 500px;height: 359px;
+    position: relative;
+    bottom: 284px;
+    left: 259px;
+}
+.lox1c h3{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    width: 500px;
+    left: 567px;
+    bottom: 264px;
+}
+.lox1c img.nh3{
+    width: 500px;height: 359px;
+    position: relative;
+    bottom: 200px;
+    right: 260px;
+}
+.lox1c h4{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 180px;
+    width: 500px;
+    left: 50px;
+}
+.lox1c img.nh4{
+    width: 500px;height: 359px;
+    position: relative;
+    bottom: 605px;
+    left: 259px;
+}
+.lox1c h5{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    width: 500px;
+    left: 567px;
+    bottom: 584px;
+}
+.lox1c img.nh5{
+    width: 500px;height: 359px;
+    position: relative;
+    bottom: 560px;
+    right: 260px;
+}
+.lox1c h6{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 540px;
+    width: 500px;
+    left: 50px;
+}
+.lox1c img.nh6{
+    width: 500px;height: 359px;
+    position: relative;
+    bottom: 964px;
+    left: 259px;
+}
+.lox1c p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    font-weight: bold;
+    width: 500px;
+    left: 567px;
+    bottom: 944px;
+}
+.lox1d{
+    width: 1119px;height: 1530px;
+}
+.lox1d h1{
+    color: #fff;
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1d img.ns1{
+    width: 500px;height: 310px;
+    float: left;
+    position: relative;
+    top: 120px;
+    right: 148px;
+}
+.lox1d img.ns2{
+    width: 500px;height: 310px;
+    float: right;
+    position: relative;
+    bottom: 190px;
+    right: 51px;
+}
+.lox1d img.ns3{
+    width: 334px;height: 164px;
+    float: left;
+    position: relative;
+    left: 51px;
+    top: 138px;
+}
+.lox1d img.ns4{
+    width: 334px;height: 164px;
+    position: relative;
+    float: left;
+    left: 395px;
+    bottom: 26px;
+}
+.lox1d img.ns5{
+    width: 334px;height: 164px;
+    position: relative;
+    float: left;
+    left: 405px;
+    bottom: 172px;
+}
+.lox1d img.ns6{
+    width: 334px;height: 164px;
+    float: left;
+    position: relative;
+    right: 617px;
+    bottom: -10px;
+}
+.lox1d img.ns7{
+    width: 334px;height: 164px;
+    position: relative;
+    float: left;
+    left: 395px;
+    bottom: 154px;
+}
+.lox1d img.ns8{
+    width: 334px;height: 164px;
+    position: relative;
+    float: left;
+    left: 405px;
+    bottom: 154px;
+}
+.lox1d img:hover{
+    opacity: 0.8;
+}
+.lox1d1{
+    width: 1022px;height: 700px;
+    position: relative;
+    top: 810px;
+    left: 51px;
+}
+.lox1d1 img.nl{
+    width: 511px;height: 700px;
+    position: relative;
+    bottom: 948px;
+    float: left;
+}
+.lox1d1a{
+    width: 511px;height: 700px;
+    position: relative;
+    left: 511px;
+    text-align: center;
+}
+.lox1d1a h1{
+    font-size: 20px;
+    position: absolute;
+    bottom: 200px;
+    right: 60px;
+}
+.lox1d1a p{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 700px;
+    position: relative;
+    right: 220px;
+    bottom: 150px;
+}
+.lox1d1a p1{
+    color: #fff;
+    bottom: 100px;
+    position: relative;
+    font-family: sans-serif;
+    right: 165px;
+}
+.lox1d1a a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #dadada;
+    right: 160px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 50px;
+    padding: 15px;
+}
+.lox1d1a a:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1d a.xt{
+    color: #dadada;
+    font-family: sans-serif;
+    position: relative;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+    left: 114px;
+    top: 60px;
+}
+.lox1d a.xt:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}

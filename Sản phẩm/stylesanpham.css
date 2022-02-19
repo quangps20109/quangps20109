@@ -1,0 +1,792 @@
+.header{
+    width: 1519px;height: 5000px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.nav1{
+    width: 300px;height: 100px;
+    background: #dc0606;
+    position: absolute;
+    top: 0px;
+}
+.logo1{
+    width: 75px;height: 75px;
+    position: relative;
+    top: 18px;
+    left: 110px;
+}
+.nav2{
+    width: 919px;height: 100px;
+    background: #222c37;
+    position: inherit;
+    left: 300px;
+    bottom: 4900px;
+}
+.h1{
+    text-decoration: none;
+    color: #dadada;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+.h1:hover{
+    color: #fff;
+}
+.nav3{
+    width: 300px;height: 100px;
+    background: #1b232b;
+    position: inherit;
+    left: 1219px;
+    bottom: 4900px;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input-1 {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 3px solid #dc0606;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: #000;
+    outline: none;
+    transition: .5s;
+}
+.box:hover .input-1{
+    width: 200px;
+    background: white;
+    border-radius: 50px;
+}
+i{
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #dc0606;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.box1{
+    position: relative;
+    width: 1519px;height: 250px;
+    background: #dadada;
+    top: 100px;
+    text-align: center;
+}
+.box1 a{
+    position: relative;
+    color: #dadada;
+    text-decoration: none;
+    font-family: sans-serif;
+    bottom: 140px;
+    border: 2px;
+    background: #090909;
+    padding: 20px;
+    border-radius: 8px;
+}
+.box1 a:hover{
+    color: #fff;
+}
+.box1 img{
+    position: relative;
+    bottom: 0px;
+}
+.box2{
+    position: relative;
+    width: 1519px;height: 400px;
+    background: rgb(0, 13, 33);
+    top: 78px;
+    text-align: center;
+}
+.box2 h1{
+    position: relative;
+    font-family: sans-serif;
+    color: #fff;
+    top: 35px;
+}
+.box3{
+    position: relative;
+    width: 1519px;height: 150px;
+    top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.box3 a{
+    position: relative;
+    color: rgba(255, 255, 255, 0.0);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px;
+    padding: 65px;
+    margin: 10px;
+    top: 66px;
+    border-radius: 10px;
+}
+.box3 a.color1{
+    background: url('Image/pc.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.box3 a.color1:hover{
+    color: #fff;
+    background-size: 150%;
+    background-position: center;
+}
+.box3 a.color2{
+    background: url('Image/playstation.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.box3 a.color2:hover{
+    color: rgb(0, 51, 153);
+    background-size: 150%;
+    background-position: center;
+}
+.box3 a.color3{
+    background: url('Image/xbox.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.box3 a.color3:hover{
+    color: rgb(16, 124, 16);
+    background-size: 150%;
+    background-position: center;
+}
+.box3 a.color4{
+    background: url('Image/nintendo.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.box3 a.color4:hover{
+    color: rgb(230, 0, 18);
+    background-size: 150%;
+    background-position: center;
+}
+.iconify{
+    position: relative;
+    font-size: 30px;
+    top: 6px;
+}
+.box4{
+    width: 1519px;height: 1000px;
+    background: #fff;
+    position: relative;
+    top: 58px;
+}
+.box4 h1{
+    font-size: 30px;
+    width: 305px;
+    font-family: sans-serif;
+    position: relative;
+    left: 115px;
+    top: 20px;
+}
+.box4 a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 1308px;
+    bottom: 25px;
+    font-size: 15px;
+    border: 1px solid #000;
+    padding: 6px;
+    border-radius: 30px;
+}
+.box4 a:hover{
+    color: #696969	;
+}
+.box4 p{
+    font-family: sans-serif;
+    position: relative;
+    left: 115px;
+    bottom: 30px;
+    width: 480px;
+}
+.box5{
+    width: 1296px;height: 710px;
+    background: #fff;
+    position: relative;
+    left: 110px;
+    bottom: 850px;
+    text-align: center;
+}
+.box5 a{
+    display: inline;
+    float: left;
+    text-decoration: none;
+}
+.box5 a:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.box5 a img{
+    position: relative;
+    width: 201px;height: 307px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.box5 h1{
+    color: #000;
+    font-size: 10px;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 40px;
+}
+.box5 h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    color: #fff;
+    bottom: 50px;
+    left: 60px;
+}
+.box6{
+    width: 1519px;height: 600px;
+    background: #1b232b;
+    position: relative;
+    bottom: 800px;
+}
+.box6 h1{
+    color: #fff;
+    font-family: sans-serif;
+    position: relative;
+    left: 180px;
+    width: 300px;
+    bottom: 30px;
+    font-size: 25px;
+}
+.bo6a{
+    width: 610px;height: 400px;
+    margin-left: 117px;
+    position: relative;
+    bottom: 10px;
+    background: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+.bo6a img{
+    width: 610px;height: 400px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+}
+.bo6a img:hover{
+    opacity: 0.8;
+}
+.b6a{
+    width: 610px;height: 30px;
+    background: #dc0606;
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+.b6a h1{
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+.bo6b{
+    width: 610px;height: 400px;
+    margin-left: 782px;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+    bottom: 420px;
+    border-radius: 10px 10px 0px 0px;
+}
+.bo6b img{
+    width: 610px;height: 400px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.bo6b img:hover{
+    opacity: 0.8;
+}
+.b6b{
+    width: 610px;height: 30px;
+    background: #000;
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+.b6b h1{
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+.box6 a{
+    text-decoration: none;
+    margin-left: 1310px;
+    position: relative;
+    bottom: 875px;
+    color: #dadada;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 5px;
+}
+.box6 a:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.box6 h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    top: 10px;
+    position: relative;
+}
+.box7{
+    width: 1519px;height: 700px;
+    background: #1b232b;
+    position: relative;
+    bottom: 800px;
+}
+.bo7a{
+    width: 400px;height: 600px;
+    position: relative;
+    top: 50px;
+    left: 158px;
+}
+.bo7b{
+    width: 401px;height: 600px;
+    background: #1b232b;
+    margin-left: 559px;
+    position: relative;
+    bottom: 550px;
+}
+.bo7c{
+    width: 400px;height: 600px;
+    background: #1b232b;
+    float: right;
+    right: 158px;
+    bottom: 1150px;
+    position: relative;
+}
+.b7a{
+    border-left: 1px solid #dadada;
+    height: 550px;
+    position:absolute;
+    left: 100%;
+}
+.bo7a h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 17px;
+}
+.bo7b h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 18px;
+}
+.bo7c h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 18px;
+}
+.bo7a a{
+    float: right;
+    position: relative;
+    bottom: 22px;
+    text-decoration: none;
+    font-size: 10px;
+    right: 10px;
+    color: #dadada;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: sans-serif;
+}
+.bo7a a:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.bo7a img{
+    width: 70px;height: 100px;
+}
+.bo7b a{
+    float: right;
+    position: relative;
+    bottom: 22px;
+    text-decoration: none;
+    font-size: 10px;
+    right: 10px;
+    color: #dadada;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: sans-serif;
+}
+.bo7b a:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.bo7b img{
+    width: 70px;height: 100px;
+}
+.bo7c a{
+    float: right;
+    position: relative;
+    bottom: 22px;
+    text-decoration: none;
+    font-size: 10px;
+    right: 10px;
+    color: #dadada;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: sans-serif;
+}
+.bo7c a:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.bo7c img{
+    width: 70px;height: 100px;
+}
+.bo7a a.b7b{
+    width: 368px;height: 100px;
+    position: relative;
+    top: 0px;
+    border: none;
+    margin-bottom: 25px;
+}
+.bo7b a.b7b{
+    width: 368px;height: 100px;
+    position: relative;
+    top: 0px;
+    border: none;
+    margin-bottom: 25px;
+}
+.bo7c a.b7b{
+    width: 368px;height: 100px;
+    position: relative;
+    top: 0px;
+    border: none;
+    margin-bottom: 25px;
+}
+.bo7a h2{
+    font-size: 14px;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+.bo7b h2{
+    font-size: 14px;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+.bo7c h2{
+    font-size: 14px;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+.bo7a h3{
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+.bo7b h3{
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+.bo7c h3{
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+}
+.bo7a a.b7b:hover{
+    background: #696969;
+}
+.bo7b a.b7b:hover{
+    background: #696969;
+}
+.bo7c a.b7b:hover{
+    background: #696969;
+}
+.box8{
+    width: 1275px;height: 250px;
+    position: relative;
+    bottom: 820px;
+    margin-left: 117px;
+}
+.box8 h1{
+    font-size: 30px;
+    width: 305px;
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+    left: 82px;
+}
+.box8 h2{
+    width: 100px;height: 30px;
+    float: right;
+    display: block;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 23px;
+    padding: 20px;
+    border: 2px solid #696969;
+    background: #dadada;
+    bottom: 370px;
+    position: relative;
+    left: 138px;
+    border-radius: 5px;
+    color: #000;
+}
+.box8 h2:hover{
+    background: #696969;
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.box9{
+    width: 1118px;height: 350px;
+    position: relative;
+    bottom: 820px;
+    left: 200px;
+    margin: 0;
+}
+.box9 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+}
+.bo9a{
+    float: left;
+    position: relative;
+    bottom: 200px;
+    margin-left: 16px;
+    right: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.box9 a > h2{
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    background: #000;
+    position: relative;
+    bottom: 40px;
+}
+.bo9a:hover{
+    opacity: 0.8;
+}
+.box10 img{
+    width: 1519px;
+    position: relative;
+    bottom: 1280px;
+}
+.box10 img.img{
+    width: 100px;height: 100px;
+    position: relative;
+    bottom: 1650px;
+    margin-left: 200px;
+}
+.box10 p{
+    position: relative;
+    bottom: 1650px;
+    font-family: sans-serif;
+    color: #fff;
+    left: 200px;
+    width: 460px;
+}
+.box10 a{
+    position: relative;
+    bottom: 1600px;
+    color: #dadada;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 200px;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 15px;
+}
+.box10 a:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.box11{
+    width: 1519px;height: 745px;
+    background: #000d21;
+    position: relative;
+    bottom: 1494px;
+}
+.box11 img{
+    height: 745px;
+    float: right;
+}
+.box11 h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    position: relative;
+    left: 114px;
+    top: 80px;
+    margin: 0;
+    width: 400px;
+}
+.box11 p{
+    color: #fff;
+    font-family: sans-serif;
+    width: 500px;
+    font-size: 20px;
+    position: relative;
+    left: 114px;
+    top: 100px;
+}
+.box11 a{
+    color: #dadada;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    left: 114px;
+    top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #696969;
+    border-radius: 3px;
+    padding: 10px;
+}
+.box11 a:hover{
+    color: #fff;
+    border: 2px solid #dadada;
+}
+.box12{
+    width: 1519px;height: 748px;
+    position: relative;
+    bottom: 1494px;
+}
+.bo12a{
+    width: 1519px;height: 374px;
+    background: #eaeaea;
+}
+.bo12a h1{
+    font-family: monospace;
+    position: relative;
+    left: 200px;
+    width: 300px;
+    margin: 0;
+    top: 50px;
+}
+.bo12a hr{
+    position: relative;
+    margin-top: 160px;
+    width: 1115px;
+}
+.bo12a img{
+    width: 100px;height: 100px;
+    position: relative;
+    left: 700px;
+    top: 20px;
+}
+.bo12a a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    top: 90px;
+    left: 200px;
+    margin-left: 80px;
+}
+.bo12a a:hover{
+    color: #dc0606;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.bo12b{
+    width: 1519px;height: 374px;
+}
+.bo12b a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 50px;
+    position: relative;
+    float: left;
+    left: 150px;
+    top: 100px;
+}
+.bo12b a:hover{
+    color: #dc0606;
+    transition: 0.2s;
+}
+.bo12b hr{
+    position: relative;
+    top: 160px;
+    width: 1115px;
+}
+.bo12b h1{
+    font-family: sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 68px;
+    left: 620px;
+    width: 800px;
+}
+.icon{
+    width: 220px;height: 40px;
+    margin-left: 1094px;
+    position: relative;
+    top: 60px;
+}
+.icon a{
+    margin: 0;
+    margin-left: 17px;
+}
+.icon a:hover{
+    color: #dc0606;
+    transition: 0.2s;
+}
+.bo12b h2{
+    font-family: sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 68px;
+    left: 580px;
+    width: 800px;
+    top: 200px;
+}

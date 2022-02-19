@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+}
+.header{
+    width: 1519px;height: 5000px;
+    position: absolute;
+    z-index: -1;
+}
+.nav1{
+    width: 300px;height: 100px;
+    background: #dc0606;
+    position: absolute;
+    top: 0px;
+}
+.logo1{
+    width: 75px;height: 75px;
+    position: relative;
+    top: 18px;
+    left: 110px;
+}
+.nav2{
+    width: 919px;height: 100px;
+    background: #222c37;
+    position: inherit;
+    left: 300px;
+    bottom: 4900px;
+}
+.h1{
+    text-decoration: none;
+    color: #dadada;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+.h1:hover{
+    color: #fff;
+}
+.nav3{
+    width: 300px;height: 100px;
+    background: #1b232b;
+    position: inherit;
+    left: 1219px;
+    bottom: 4900px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input-1 {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 3px solid #dc0606;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: #000;
+    outline: none;
+    transition: .5s;
+}
+.box:hover .input-1{
+    width: 200px;
+    background: white;
+    border-radius: 50px;
+}
+i{
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    color: #dc0606;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.nav4{
+    width: 100%;height: 700px;
+    background: white;
+    position: absolute;
+    top: 100px;
+}
+.i1{
+    width: 100%;height: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.i2{
+    width: 500px;height: 70px;
+    position: absolute;
+    bottom: 480px;
+    left: 520px;
+}
+.lox1{
+    width: 1119px;height: 2900px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.lox1 h1{
+    position: relative;
+    color: #000;
+    font-family: sans-serif;
+    top: 60px;
+    font-size: 40px;
+}
+.lox1 p{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+}
+.lox1 hr{
+    position: relative;
+    top: 100px;
+    color: #dadada;
+}
+.lox1 img{
+    width: 1119px;
+    position: relative;
+    top: 150px;
+}
+.lox1 h2{
+    position: relative;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 40px;
+    top: 200px;
+}
+.lox1 p1{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 220px;
+}
+.lox1 a.xt1{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 260px;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    left: -136px;
+}
+.lox1 a.xt1:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1a{
+    width: 1119px;height: 3200px;
+    position: relative;
+    bottom: 1300px;
+    left: 200px;
+}
+.lox1a img{
+    position: relative;
+    width: 1119px;
+    bottom: 0px;
+}
+.lox1a h1{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 40px;
+    top: 50px;
+    position: relative;
+}
+.lox1a h2{
+    color: #000;
+    font-family: sans-serif;
+    position: relative;
+    top: 70px;
+    font-style: italic;
+    font-weight: normal;
+}
+.lox1a p{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 90px;
+}
+.lox1a a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 110px;
+}
+.lox1a a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1b img{
+    width: 1119px;
+    position: relative;
+    bottom: 3500px;
+    left: 200px;
+}
+.lox1b h1{
+    position: relative;
+    bottom: 3450px;
+    left: 200px;
+    width: 1119px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1b h2{
+    position: relative;
+    bottom: 3430px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    left: 200px;
+    width: 1119px;
+}
+.lox1b p{
+    position: relative;
+    bottom: 3410px;
+    left: 200px;
+    width: 1119px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lox1b a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 3390px;
+    font-family: sans-serif;
+    left: 200px;
+}
+.lox1b a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1c img{
+    position: relative;
+    bottom: 3300px;
+    left: 200px;
+    width: 1119px;
+}
+.lox1c h1{
+    position: relative;
+    bottom: 3250px;
+    left: 200px;
+    width: 1119px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1c h2{
+    position: relative;
+    bottom: 3230px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    left: 200px;
+    width: 1119px;
+}
+.lox1c p{
+    position: relative;
+    bottom: 3210px;
+    left: 200px;
+    width: 1119px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lox1c a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 3190px;
+    font-family: sans-serif;
+    left: 200px;
+}
+.lox1c a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1d img{
+    position: relative;
+    bottom: 3100px;
+    left: 200px;
+    width: 1119px;
+}
+.lox1d h1{
+    position: relative;
+    bottom: 3050px;
+    left: 200px;
+    width: 1119px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1d h2{
+    position: relative;
+    bottom: 3030px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    left: 200px;
+    width: 1119px;
+}
+.lox1d p{
+    position: relative;
+    bottom: 3010px;
+    left: 200px;
+    width: 1119px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lox1d a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 2990px;
+    font-family: sans-serif;
+    left: 200px;
+}
+.lox1d a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1e img{
+    position: relative;
+    bottom: 2900px;
+    left: 200px;
+    width: 1119px;
+}
+.lox1e h1{
+    position: relative;
+    bottom: 2850px;
+    left: 200px;
+    width: 1119px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1e h2{
+    position: relative;
+    bottom: 2830px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    left: 200px;
+    width: 1119px;
+}
+.lox1e p{
+    position: relative;
+    bottom: 2810px;
+    left: 200px;
+    width: 1119px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lox1e a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 2790px;
+    font-family: sans-serif;
+    left: 200px;
+}
+.lox1e a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1f img{
+    position: relative;
+    bottom: 2700px;
+    left: 200px;
+    width: 1119px;
+}
+.lox1f h1{
+    position: relative;
+    bottom: 2650px;
+    left: 200px;
+    width: 1119px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1f h2{
+    position: relative;
+    bottom: 2630px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    left: 200px;
+    width: 1119px;
+}
+.lox1f p{
+    position: relative;
+    bottom: 2610px;
+    left: 200px;
+    width: 1119px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lox1f a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 2590px;
+    font-family: sans-serif;
+    left: 200px;
+}
+.lox1f a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
+.lox1g img{
+    position: relative;
+    bottom: 2500px;
+    left: 200px;
+    width: 1119px;
+}
+.lox1g h1{
+    position: relative;
+    bottom: 2450px;
+    left: 200px;
+    width: 1119px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.lox1g h2{
+    position: relative;
+    bottom: 2430px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    left: 200px;
+    width: 1119px;
+}
+.lox1g p{
+    position: relative;
+    bottom: 2410px;
+    left: 200px;
+    width: 1119px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lox1g a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid #dc0606;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 2390px;
+    font-family: sans-serif;
+    left: 200px;
+}
+.lox1g a:hover{
+    color: #fff;
+    background: #dc0606;
+    transition: 0.5s;
+}
